@@ -1,0 +1,1 @@
+export { useLocationSelector } from "./useLocationSelector";

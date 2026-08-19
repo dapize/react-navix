@@ -1,0 +1,28 @@
+{
+	"compilerOptions": {
+		"target": "es2023",
+		"lib": ["ES2023", "DOM"],
+		"module": "esnext",
+		"skipLibCheck": true,
+		"moduleResolution": "bundler",
+		"verbatimModuleSyntax": true,
+		"moduleDetection": "force",
+		"jsx": "react-jsx",
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noFallthroughCasesInSwitch": true,
+		"strict": true,
+		"outDir": "dist",
+		"rootDir": ".",
+		"paths": {
+			"@components/*": ["./src/components/*"],
+			"@hooks/*": ["./src/hooks/*"],
+			"@contexts/*": ["./src/contexts/*"],
+			"@utils/*": ["./src/utils/*"],
+			"@helpers/*": ["./src/helpers/*"],
+			"@stores/*": ["./src/stores/*"]
+		}
+	},
+	"include": ["src"],
+	"references": [{ "path": "./tsconfig.node.json" }]
+}

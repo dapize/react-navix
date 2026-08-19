@@ -1,0 +1,1 @@
+export { safeDecode } from "./safeDecode";

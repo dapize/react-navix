@@ -1,0 +1,1 @@
+export { getRouteResolutionBase } from "./getRouteResolutionBase";

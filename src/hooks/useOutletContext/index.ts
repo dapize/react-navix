@@ -1,0 +1,1 @@
+export { useOutletContext } from "./useOutletContext";
